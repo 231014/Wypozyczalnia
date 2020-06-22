@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0745675F-FE39-4609-B8CF-ED524C406272}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Wypozyczalnia</RootNamespace>
+    <AssemblyName>Wypozyczalnia</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Client\ClientInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Client\ClientInformation.Designer.cs">
+      <DependentUpon>ClientInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Client\ClientModify.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Client\ClientModify.Designer.cs">
+      <DependentUpon>ClientModify.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Client\ClientPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Client\ClientPanel.Designer.cs">
+      <DependentUpon>ClientPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Client\Client_panel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Client\Client_panel.Designer.cs">
+      <DependentUpon>Client_panel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Client\Rental\NewRental.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Client\Rental\NewRental.Designer.cs">
+      <DependentUpon>NewRental.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Client\Rental\RentalInformations.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Client\Rental\RentalInformations.Designer.cs">
+      <DependentUpon>RentalInformations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Data.cs" />
+    <Compile Include="Filmy\MovieAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Filmy\MovieAdd.Designer.cs">
+      <DependentUpon>MovieAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Filmy\MovieInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Filmy\MovieInformation.Designer.cs">
+      <DependentUpon>MovieInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Filmy\MovieModification.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Filmy\MovieModification.Designer.cs">
+      <DependentUpon>MovieModification.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Filmy\MoviesMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Filmy\MoviesMenu.Designer.cs">
+      <DependentUpon>MoviesMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Informacje.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Informacje.Designer.cs">
+      <DependentUpon>Informacje.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kategorie\CategoriesMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kategorie\CategoriesMenu.Designer.cs">
+      <DependentUpon>CategoriesMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Client\ClientInformation.resx">
+      <DependentUpon>ClientInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Client\ClientModify.resx">
+      <DependentUpon>ClientModify.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Client\ClientPanel.resx">
+      <DependentUpon>ClientPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Client\Client_panel.resx">
+      <DependentUpon>Client_panel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Client\Rental\NewRental.resx">
+      <DependentUpon>NewRental.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Client\Rental\RentalInformations.resx">
+      <DependentUpon>RentalInformations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Filmy\MovieAdd.resx">
+      <DependentUpon>MovieAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Filmy\MovieInformation.resx">
+      <DependentUpon>MovieInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Filmy\MovieModification.resx">
+      <DependentUpon>MovieModification.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Filmy\MoviesMenu.resx">
+      <DependentUpon>MoviesMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Informacje.resx">
+      <DependentUpon>Informacje.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kategorie\CategoriesMenu.resx">
+      <DependentUpon>CategoriesMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WypozyczalniaDLL\WypozyczalniaDLL.csproj">
+      <Project>{7a6af89e-2d81-48f2-8cd2-236712fcb803}</Project>
+      <Name>WypozyczalniaDLL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

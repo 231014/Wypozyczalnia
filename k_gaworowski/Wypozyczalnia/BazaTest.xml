@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Wypozyczalnia>
+  <Movies>
+    <Movie id="0">
+      <Name>Bambo</Name>
+      <Price>1.99</Price>
+    </Movie>
+    <Movie id="1">
+      <Name>Bambo 4</Name>
+      <Price>12.30</Price>
+    </Movie>
+    <Movie id="2">
+      <Name>Billy Kid</Name>
+      <Price>1.70</Price>
+    </Movie>
+    <Movie id="3">
+      <Name>Deadpool 3</Name>
+      <Price>13.37</Price>
+    </Movie>
+    <Movie id="4">
+      <Name>Incepcja</Name>
+      <Price>4.50</Price>
+    </Movie>
+  </Movies>
+  <Categories>
+    <Category id="0">
+      <Name>Child</Name>
+      <Movies>
+        <Movie>0</Movie>
+        <Movie>1</Movie>
+      </Movies>
+    </Category>
+    <Category id="1">
+      <Name>Normal</Name>
+      <Movies>
+        <Movie>3</Movie>
+        <Movie>4</Movie>
+      </Movies>
+    </Category>
+    <Category id="2">
+      <Name>New</Name>
+      <Movies>
+        <Movie>1</Movie>
+        <Movie>3</Movie>
+      </Movies>
+    </Category>
+    <Category id="3">
+      <Name>Western</Name>
+      <Movies>
+        <Movie>2</Movie>
+      </Movies>
+    </Category>
+  </Categories>
+  <Rentals>
+    <Rental id="0">
+      <RentDate>16.06.2020 00:00:00</RentDate>
+      <ReturnDate>17.06.2020 00:00:00</ReturnDate>
+      <Movies>
+        <Movie>0</Movie>
+        <Movie>1</Movie>
+      </Movies>
+    </Rental>
+  </Rentals>
+  <PersonalDatas>
+    <Personal id="0">
+      <Name>Alicja</Name>
+      <Surname>Benc</Surname>
+      <BirthDate>01.04.2000 13:20:26</BirthDate>
+    </Personal>
+    <Personal id="1">
+      <Name>Cezary</Name>
+      <Surname>Kieł</Surname>
+      <BirthDate>22.03.1984 13:20:39</BirthDate>
+    </Personal>
+    <Personal id="2">
+      <Name>Konrad</Name>
+      <Surname>Gaworowski</Surname>
+      <BirthDate>01.01.1996 13:22:30</BirthDate>
+    </Personal>
+  </PersonalDatas>
+  <Clients>
+    <Client id="0">
+      <PersonalData>0</PersonalData>
+      <Rentnals />
+    </Client>
+    <Client id="1">
+      <PersonalData>1</PersonalData>
+      <Rentnals />
+    </Client>
+    <Client id="2">
+      <PersonalData>2</PersonalData>
+      <Rentnals>
+        <Rental>0</Rental>
+      </Rentnals>
+    </Client>
+  </Clients>
+</Wypozyczalnia>
