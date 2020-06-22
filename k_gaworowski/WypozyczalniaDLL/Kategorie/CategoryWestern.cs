@@ -4,34 +4,34 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WypozyczalniaDLL
+namespace WypozyczalniaDane
 {
-    public class CategoryChild : Category
+    public class CategoryWestern : Category
     {
-        private static CategoryChild instance;
-        public static CategoryChild Instance
+        private static CategoryWestern instance;
+        public static CategoryWestern Instance
         {
             get
             {
                 if (instance == null)
-                    instance = new CategoryChild();
+                    instance = new CategoryWestern();
                 return instance;
             } 
         }
 
-        private CategoryChild()
+        private CategoryWestern()
         {
             movies = new List<Movie>();
         }
 
         public override string ReturnCategoryName()
         {
-            return "Child";
+            return "Western";
         }
 
         public override string ToString()
         {
-            return "Dziecięce";
+            return "Western";
         }
     }
 }

@@ -38,11 +38,12 @@
             // 
             // btnMovieInfo
             // 
-            this.btnMovieInfo.Font = new System.Drawing.Font("Courier New", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnMovieInfo.Font = new System.Drawing.Font("Georgia", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnMovieInfo.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnMovieInfo.Location = new System.Drawing.Point(22, 191);
+            this.btnMovieInfo.Location = new System.Drawing.Point(29, 235);
+            this.btnMovieInfo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnMovieInfo.Name = "btnMovieInfo";
-            this.btnMovieInfo.Size = new System.Drawing.Size(184, 97);
+            this.btnMovieInfo.Size = new System.Drawing.Size(245, 119);
             this.btnMovieInfo.TabIndex = 5;
             this.btnMovieInfo.Text = "Informacje o filmie";
             this.btnMovieInfo.UseVisualStyleBackColor = true;
@@ -50,11 +51,12 @@
             // 
             // btnModifyMovie
             // 
-            this.btnModifyMovie.Font = new System.Drawing.Font("Courier New", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnModifyMovie.Font = new System.Drawing.Font("Georgia", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnModifyMovie.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnModifyMovie.Location = new System.Drawing.Point(22, 294);
+            this.btnModifyMovie.Location = new System.Drawing.Point(29, 362);
+            this.btnModifyMovie.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnModifyMovie.Name = "btnModifyMovie";
-            this.btnModifyMovie.Size = new System.Drawing.Size(184, 97);
+            this.btnModifyMovie.Size = new System.Drawing.Size(245, 119);
             this.btnModifyMovie.TabIndex = 6;
             this.btnModifyMovie.Text = "Modyfikuj film";
             this.btnModifyMovie.UseVisualStyleBackColor = true;
@@ -62,11 +64,12 @@
             // 
             // btnDeleteMovie
             // 
-            this.btnDeleteMovie.Font = new System.Drawing.Font("Courier New", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnDeleteMovie.Font = new System.Drawing.Font("Georgia", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnDeleteMovie.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnDeleteMovie.Location = new System.Drawing.Point(22, 397);
+            this.btnDeleteMovie.Location = new System.Drawing.Point(29, 489);
+            this.btnDeleteMovie.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnDeleteMovie.Name = "btnDeleteMovie";
-            this.btnDeleteMovie.Size = new System.Drawing.Size(184, 97);
+            this.btnDeleteMovie.Size = new System.Drawing.Size(245, 119);
             this.btnDeleteMovie.TabIndex = 7;
             this.btnDeleteMovie.Text = "Usuń film";
             this.btnDeleteMovie.UseVisualStyleBackColor = true;
@@ -74,11 +77,12 @@
             // 
             // btnAddMovie
             // 
-            this.btnAddMovie.Font = new System.Drawing.Font("Courier New", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnAddMovie.Font = new System.Drawing.Font("Georgia", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnAddMovie.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnAddMovie.Location = new System.Drawing.Point(22, 88);
+            this.btnAddMovie.Location = new System.Drawing.Point(29, 108);
+            this.btnAddMovie.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAddMovie.Name = "btnAddMovie";
-            this.btnAddMovie.Size = new System.Drawing.Size(184, 97);
+            this.btnAddMovie.Size = new System.Drawing.Size(245, 119);
             this.btnAddMovie.TabIndex = 8;
             this.btnAddMovie.Text = "Dodaj film";
             this.btnAddMovie.UseVisualStyleBackColor = true;
@@ -86,35 +90,38 @@
             // 
             // listBox1
             // 
-            this.listBox1.Font = new System.Drawing.Font("Courier New", 15.75F);
+            this.listBox1.Font = new System.Drawing.Font("Georgia", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 23;
-            this.listBox1.Location = new System.Drawing.Point(320, 91);
+            this.listBox1.ItemHeight = 31;
+            this.listBox1.Location = new System.Drawing.Point(427, 112);
+            this.listBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(302, 395);
+            this.listBox1.Size = new System.Drawing.Size(401, 469);
             this.listBox1.TabIndex = 4;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Courier New", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label1.Location = new System.Drawing.Point(156, 18);
+            this.label1.Font = new System.Drawing.Font("Georgia", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label1.Location = new System.Drawing.Point(208, 22);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(342, 54);
+            this.label1.Size = new System.Drawing.Size(485, 69);
             this.label1.TabIndex = 3;
             this.label1.Text = "PANEL FILMU";
             // 
             // MoviesMenu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(684, 561);
+            this.ClientSize = new System.Drawing.Size(912, 690);
             this.Controls.Add(this.btnMovieInfo);
             this.Controls.Add(this.btnModifyMovie);
             this.Controls.Add(this.btnDeleteMovie);
             this.Controls.Add(this.btnAddMovie);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "MoviesMenu";
             this.Text = "MoviesMenu";
             this.ResumeLayout(false);

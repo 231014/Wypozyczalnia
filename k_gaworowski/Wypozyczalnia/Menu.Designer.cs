@@ -42,20 +42,20 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Courier New", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label1.Location = new System.Drawing.Point(130, 53);
+            this.label1.Font = new System.Drawing.Font("Georgia", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label1.Location = new System.Drawing.Point(88, 49);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(749, 67);
+            this.label1.Size = new System.Drawing.Size(911, 69);
             this.label1.TabIndex = 0;
             this.label1.Text = "WYPOŻYCZALNIA FILMÓW";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // btnKlienci
             // 
-            this.btnKlienci.Font = new System.Drawing.Font("Courier New", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnKlienci.Font = new System.Drawing.Font("Georgia", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnKlienci.Location = new System.Drawing.Point(132, 187);
-            this.btnKlienci.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnKlienci.Margin = new System.Windows.Forms.Padding(4);
             this.btnKlienci.Name = "btnKlienci";
             this.btnKlienci.Size = new System.Drawing.Size(333, 123);
             this.btnKlienci.TabIndex = 1;
@@ -65,9 +65,9 @@
             // 
             // btnFilmy
             // 
-            this.btnFilmy.Font = new System.Drawing.Font("Courier New", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnFilmy.Font = new System.Drawing.Font("Georgia", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnFilmy.Location = new System.Drawing.Point(529, 187);
-            this.btnFilmy.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnFilmy.Margin = new System.Windows.Forms.Padding(4);
             this.btnFilmy.Name = "btnFilmy";
             this.btnFilmy.Size = new System.Drawing.Size(333, 123);
             this.btnFilmy.TabIndex = 1;
@@ -77,9 +77,9 @@
             // 
             // btnKategorie
             // 
-            this.btnKategorie.Font = new System.Drawing.Font("Courier New", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnKategorie.Font = new System.Drawing.Font("Georgia", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnKategorie.Location = new System.Drawing.Point(132, 366);
-            this.btnKategorie.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnKategorie.Margin = new System.Windows.Forms.Padding(4);
             this.btnKategorie.Name = "btnKategorie";
             this.btnKategorie.Size = new System.Drawing.Size(333, 123);
             this.btnKategorie.TabIndex = 1;
@@ -89,9 +89,9 @@
             // 
             // btnSave
             // 
-            this.btnSave.Font = new System.Drawing.Font("Courier New", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnSave.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnSave.Location = new System.Drawing.Point(529, 366);
-            this.btnSave.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSave.Margin = new System.Windows.Forms.Padding(4);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(159, 123);
             this.btnSave.TabIndex = 2;
@@ -105,9 +105,9 @@
             // 
             // btnLoad
             // 
-            this.btnLoad.Font = new System.Drawing.Font("Courier New", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnLoad.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnLoad.Location = new System.Drawing.Point(703, 366);
-            this.btnLoad.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnLoad.Margin = new System.Windows.Forms.Padding(4);
             this.btnLoad.Name = "btnLoad";
             this.btnLoad.Size = new System.Drawing.Size(159, 123);
             this.btnLoad.TabIndex = 3;
@@ -123,11 +123,11 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Courier New", 18F, System.Drawing.FontStyle.Bold);
+            this.label2.Font = new System.Drawing.Font("Georgia", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label2.Location = new System.Drawing.Point(293, 620);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(447, 34);
+            this.label2.Size = new System.Drawing.Size(444, 35);
             this.label2.TabIndex = 4;
             this.label2.Text = "Autor: Konrad Gaworowski";
             // 
@@ -135,6 +135,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(1045, 690);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnLoad);
@@ -144,7 +145,7 @@
             this.Controls.Add(this.btnKlienci);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.Name = "Menu";
             this.Text = "Menu";

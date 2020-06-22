@@ -1,0 +1,5 @@
+D:\Downloads\k_gaworowski\WypozyczalniaDLL\obj\Debug\WypozyczalniaDLL.dll
+D:\Downloads\k_gaworowski\WypozyczalniaDLL\obj\Debug\WypozyczalniaDLL.pdb
+D:\Downloads\k_gaworowski\WypozyczalniaDLL\bin\Debug\WypozyczalniaDLL.dll
+D:\Downloads\k_gaworowski\WypozyczalniaDLL\bin\Debug\WypozyczalniaDLL.pdb
+D:\Downloads\k_gaworowski\WypozyczalniaDLL\obj\Debug\WypozyczalniaData.csprojAssemblyReference.cache

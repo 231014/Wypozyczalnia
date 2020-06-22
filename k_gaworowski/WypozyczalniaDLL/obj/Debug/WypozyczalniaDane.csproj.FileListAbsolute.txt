@@ -1,0 +1,11 @@
+D:\Downloads\k_gaworowski\WypozyczalniaDLL\bin\Debug\WypozyczalniaDLL.dll
+D:\Downloads\k_gaworowski\WypozyczalniaDLL\bin\Debug\WypozyczalniaDLL.pdb
+D:\Downloads\k_gaworowski\WypozyczalniaDLL\obj\Debug\WypozyczalniaDane.csprojAssemblyReference.cache
+D:\Downloads\k_gaworowski\WypozyczalniaDLL\obj\Debug\WypozyczalniaDLL.dll
+D:\Downloads\k_gaworowski\WypozyczalniaDLL\obj\Debug\WypozyczalniaDLL.pdb
+C:\Users\Konrad\Desktop\poprawiony projek obiektowe\k_gaworowski\k_gaworowski\WypozyczalniaDLL\bin\Debug\WypozyczalniaDLL.dll
+C:\Users\Konrad\Desktop\poprawiony projek obiektowe\k_gaworowski\k_gaworowski\WypozyczalniaDLL\bin\Debug\WypozyczalniaDLL.pdb
+C:\Users\Konrad\Desktop\poprawiony projek obiektowe\k_gaworowski\k_gaworowski\WypozyczalniaDLL\obj\Debug\WypozyczalniaDane.csprojAssemblyReference.cache
+C:\Users\Konrad\Desktop\poprawiony projek obiektowe\k_gaworowski\k_gaworowski\WypozyczalniaDLL\obj\Debug\WypozyczalniaDane.csproj.CoreCompileInputs.cache
+C:\Users\Konrad\Desktop\poprawiony projek obiektowe\k_gaworowski\k_gaworowski\WypozyczalniaDLL\obj\Debug\WypozyczalniaDLL.dll
+C:\Users\Konrad\Desktop\poprawiony projek obiektowe\k_gaworowski\k_gaworowski\WypozyczalniaDLL\obj\Debug\WypozyczalniaDLL.pdb

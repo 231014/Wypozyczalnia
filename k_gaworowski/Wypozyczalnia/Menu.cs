@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-using WypozyczalniaDLL;
+using WypozyczalniaDane;
 
 namespace Wypozyczalnia
 {
@@ -47,14 +47,14 @@ namespace Wypozyczalnia
 
         private void btnSave_Click(object sender, EventArgs e)
         {
-            ISaveLoad saver = new SaveLoadToXML(saveFileDialog1.FileName);
+            ZapisInterfejs saver = new ZapisXML(saveFileDialog1.FileName);
             if (saveFileDialog1.ShowDialog() == DialogResult.OK)
             {
                 string extension = Path.GetExtension(saveFileDialog1.FileName);
                 switch (extension)
                 {
                     case ".xml":
-                        saver = new SaveLoadToXML(saveFileDialog1.FileName);
+                        saver = new ZapisXML(saveFileDialog1.FileName);
                         break;
                 }
 
@@ -70,13 +70,13 @@ namespace Wypozyczalnia
         {
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
-                ISaveLoad loader = new SaveLoadToXML(openFileDialog1.FileName);
+                ZapisInterfejs loader = new ZapisXML(openFileDialog1.FileName);
 
                 string extension = Path.GetExtension(openFileDialog1.FileName);
                 switch (extension)
                 {
                     case ".xml":
-                        loader = new SaveLoadToXML(openFileDialog1.FileName);
+                        loader = new ZapisXML(openFileDialog1.FileName);
                         break;
                 }
 

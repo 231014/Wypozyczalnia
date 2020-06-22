@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WypozyczalniaDLL
+namespace WypozyczalniaDane
 {
     public class CategoryNormal : Category
     {
@@ -28,10 +28,9 @@ namespace WypozyczalniaDLL
         {
             return "Normal";
         }
-
         public override string ToString()
         {
-            return "Normalne";
+            return "Normalny";
         }
     }
 }

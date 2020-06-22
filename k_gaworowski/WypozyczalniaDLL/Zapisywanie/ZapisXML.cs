@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 using System.IO;
 using System.Xml.Linq;
 
-namespace WypozyczalniaDLL
+namespace WypozyczalniaDane
 {
-    public class SaveLoadToXML : ISaveLoad
+    public class ZapisXML : ZapisInterfejs
     {
-        private string filepath;
+        private string sciezkapliku;
         private XDocument document;
         private XElement root;
 
@@ -28,9 +28,9 @@ namespace WypozyczalniaDLL
         private Dictionary<int, Client> Clients;
         private Dictionary<int, PersonalData> Personals;
 
-        public SaveLoadToXML(string filepath)
+        public ZapisXML(string sciezkapliku)
         {
-            this.filepath = filepath;
+            this.sciezkapliku = sciezkapliku;
             document = new XDocument();
             Categories = new Dictionary<int, Category>();
             Movies = new Dictionary<int, Movie>();
@@ -60,7 +60,7 @@ namespace WypozyczalniaDLL
                 SaveRentals();
                 SaveClients();
 
-                document.Save(filepath);
+                document.Save(sciezkapliku);
             }
             catch (Exception)
             {
@@ -109,7 +109,7 @@ namespace WypozyczalniaDLL
         }
         private void LoadFile()
         {
-            document = XDocument.Load(filepath);
+            document = XDocument.Load(sciezkapliku);
             root = document.Element("Wypozyczalnia");
         }
         private void ResetDictionaries()

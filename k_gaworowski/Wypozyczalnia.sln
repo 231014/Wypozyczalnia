@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wypozyczalnia", "Wypozyczalnia\Wypozyczalnia.csproj", "{0745675F-FE39-4609-B8CF-ED524C406272}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WypozyczalniaDLL", "WypozyczalniaDLL\WypozyczalniaDLL.csproj", "{7A6AF89E-2D81-48F2-8CD2-236712FCB803}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WypozyczalniaDane", "WypozyczalniaDLL\WypozyczalniaDane.csproj", "{7A6AF89E-2D81-48F2-8CD2-236712FCB803}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

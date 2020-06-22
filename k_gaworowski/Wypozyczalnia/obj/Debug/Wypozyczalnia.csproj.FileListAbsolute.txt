@@ -97,3 +97,52 @@ C:\Users\Konrad\Desktop\k_gaworowski\Wypozyczalnia\obj\Debug\Wypozyczalnia.cspro
 C:\Users\Konrad\Desktop\k_gaworowski\Wypozyczalnia\obj\Debug\Wypozyczalnia.csproj.CopyComplete
 C:\Users\Konrad\Desktop\k_gaworowski\Wypozyczalnia\obj\Debug\Wypozyczalnia.exe
 C:\Users\Konrad\Desktop\k_gaworowski\Wypozyczalnia\obj\Debug\Wypozyczalnia.pdb
+D:\Downloads\k_gaworowski\Wypozyczalnia\bin\Debug\Wypozyczalnia.exe.config
+D:\Downloads\k_gaworowski\Wypozyczalnia\bin\Debug\Wypozyczalnia.exe
+D:\Downloads\k_gaworowski\Wypozyczalnia\bin\Debug\Wypozyczalnia.pdb
+D:\Downloads\k_gaworowski\Wypozyczalnia\bin\Debug\WypozyczalniaDLL.dll
+D:\Downloads\k_gaworowski\Wypozyczalnia\bin\Debug\WypozyczalniaDLL.pdb
+D:\Downloads\k_gaworowski\Wypozyczalnia\obj\Debug\Wypozyczalnia.csprojAssemblyReference.cache
+D:\Downloads\k_gaworowski\Wypozyczalnia\obj\Debug\Wypozyczalnia.ClientInformation.resources
+D:\Downloads\k_gaworowski\Wypozyczalnia\obj\Debug\Wypozyczalnia.ClientModify.resources
+D:\Downloads\k_gaworowski\Wypozyczalnia\obj\Debug\Wypozyczalnia.ClientPanel.resources
+D:\Downloads\k_gaworowski\Wypozyczalnia\obj\Debug\Wypozyczalnia.Client_panel.resources
+D:\Downloads\k_gaworowski\Wypozyczalnia\obj\Debug\Wypozyczalnia.NewRental.resources
+D:\Downloads\k_gaworowski\Wypozyczalnia\obj\Debug\Wypozyczalnia.RentalInformations.resources
+D:\Downloads\k_gaworowski\Wypozyczalnia\obj\Debug\Wypozyczalnia.MovieAdd.resources
+D:\Downloads\k_gaworowski\Wypozyczalnia\obj\Debug\Wypozyczalnia.MovieInformation.resources
+D:\Downloads\k_gaworowski\Wypozyczalnia\obj\Debug\Wypozyczalnia.MovieModification.resources
+D:\Downloads\k_gaworowski\Wypozyczalnia\obj\Debug\Wypozyczalnia.MoviesMenu.resources
+D:\Downloads\k_gaworowski\Wypozyczalnia\obj\Debug\Wypozyczalnia.Informacje.resources
+D:\Downloads\k_gaworowski\Wypozyczalnia\obj\Debug\Wypozyczalnia.CategoriesMenu.resources
+D:\Downloads\k_gaworowski\Wypozyczalnia\obj\Debug\Wypozyczalnia.Menu.resources
+D:\Downloads\k_gaworowski\Wypozyczalnia\obj\Debug\Wypozyczalnia.Properties.Resources.resources
+D:\Downloads\k_gaworowski\Wypozyczalnia\obj\Debug\Wypozyczalnia.csproj.GenerateResource.cache
+D:\Downloads\k_gaworowski\Wypozyczalnia\obj\Debug\Wypozyczalnia.csproj.CopyComplete
+D:\Downloads\k_gaworowski\Wypozyczalnia\obj\Debug\Wypozyczalnia.exe
+D:\Downloads\k_gaworowski\Wypozyczalnia\obj\Debug\Wypozyczalnia.pdb
+C:\Users\Konrad\Desktop\poprawiony projek obiektowe\k_gaworowski\k_gaworowski\Wypozyczalnia\bin\Debug\Wypozyczalnia.exe.config
+C:\Users\Konrad\Desktop\poprawiony projek obiektowe\k_gaworowski\k_gaworowski\Wypozyczalnia\bin\Debug\Wypozyczalnia.exe
+C:\Users\Konrad\Desktop\poprawiony projek obiektowe\k_gaworowski\k_gaworowski\Wypozyczalnia\bin\Debug\Wypozyczalnia.pdb
+C:\Users\Konrad\Desktop\poprawiony projek obiektowe\k_gaworowski\k_gaworowski\Wypozyczalnia\bin\Debug\WypozyczalniaDLL.dll
+C:\Users\Konrad\Desktop\poprawiony projek obiektowe\k_gaworowski\k_gaworowski\Wypozyczalnia\bin\Debug\WypozyczalniaDLL.pdb
+C:\Users\Konrad\Desktop\poprawiony projek obiektowe\k_gaworowski\k_gaworowski\Wypozyczalnia\obj\Debug\Wypozyczalnia.csprojAssemblyReference.cache
+C:\Users\Konrad\Desktop\poprawiony projek obiektowe\k_gaworowski\k_gaworowski\Wypozyczalnia\obj\Debug\Wypozyczalnia.ClientInformation.resources
+C:\Users\Konrad\Desktop\poprawiony projek obiektowe\k_gaworowski\k_gaworowski\Wypozyczalnia\obj\Debug\Wypozyczalnia.ClientModify.resources
+C:\Users\Konrad\Desktop\poprawiony projek obiektowe\k_gaworowski\k_gaworowski\Wypozyczalnia\obj\Debug\Wypozyczalnia.ClientPanel.resources
+C:\Users\Konrad\Desktop\poprawiony projek obiektowe\k_gaworowski\k_gaworowski\Wypozyczalnia\obj\Debug\Wypozyczalnia.Client_panel.resources
+C:\Users\Konrad\Desktop\poprawiony projek obiektowe\k_gaworowski\k_gaworowski\Wypozyczalnia\obj\Debug\Wypozyczalnia.NewRental.resources
+C:\Users\Konrad\Desktop\poprawiony projek obiektowe\k_gaworowski\k_gaworowski\Wypozyczalnia\obj\Debug\Wypozyczalnia.RentalInformations.resources
+C:\Users\Konrad\Desktop\poprawiony projek obiektowe\k_gaworowski\k_gaworowski\Wypozyczalnia\obj\Debug\Wypozyczalnia.MovieAdd.resources
+C:\Users\Konrad\Desktop\poprawiony projek obiektowe\k_gaworowski\k_gaworowski\Wypozyczalnia\obj\Debug\Wypozyczalnia.MovieInformation.resources
+C:\Users\Konrad\Desktop\poprawiony projek obiektowe\k_gaworowski\k_gaworowski\Wypozyczalnia\obj\Debug\Wypozyczalnia.MovieModification.resources
+C:\Users\Konrad\Desktop\poprawiony projek obiektowe\k_gaworowski\k_gaworowski\Wypozyczalnia\obj\Debug\Wypozyczalnia.MoviesMenu.resources
+C:\Users\Konrad\Desktop\poprawiony projek obiektowe\k_gaworowski\k_gaworowski\Wypozyczalnia\obj\Debug\Wypozyczalnia.Informacje.resources
+C:\Users\Konrad\Desktop\poprawiony projek obiektowe\k_gaworowski\k_gaworowski\Wypozyczalnia\obj\Debug\Wypozyczalnia.CategoriesMenu.resources
+C:\Users\Konrad\Desktop\poprawiony projek obiektowe\k_gaworowski\k_gaworowski\Wypozyczalnia\obj\Debug\Wypozyczalnia.Menu.resources
+C:\Users\Konrad\Desktop\poprawiony projek obiektowe\k_gaworowski\k_gaworowski\Wypozyczalnia\obj\Debug\Wypozyczalnia.Properties.Resources.resources
+C:\Users\Konrad\Desktop\poprawiony projek obiektowe\k_gaworowski\k_gaworowski\Wypozyczalnia\obj\Debug\Wypozyczalnia.csproj.GenerateResource.cache
+C:\Users\Konrad\Desktop\poprawiony projek obiektowe\k_gaworowski\k_gaworowski\Wypozyczalnia\obj\Debug\Wypozyczalnia.csproj.CoreCompileInputs.cache
+C:\Users\Konrad\Desktop\poprawiony projek obiektowe\k_gaworowski\k_gaworowski\Wypozyczalnia\obj\Debug\Wypozyczalnia.csproj.CopyComplete
+C:\Users\Konrad\Desktop\poprawiony projek obiektowe\k_gaworowski\k_gaworowski\Wypozyczalnia\obj\Debug\Wypozyczalnia.exe
+C:\Users\Konrad\Desktop\poprawiony projek obiektowe\k_gaworowski\k_gaworowski\Wypozyczalnia\obj\Debug\Wypozyczalnia.pdb

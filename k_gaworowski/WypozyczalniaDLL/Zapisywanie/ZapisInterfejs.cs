@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-namespace WypozyczalniaDLL
+namespace WypozyczalniaDane
 {
-    public interface ISaveLoad
+    public interface ZapisInterfejs
     {
         bool Save(List<Client> clients, List<Movie> movies, List<Category> categories);
         bool Load(out List<Client> clients, out List<Movie> movies, out List<Category> categories);

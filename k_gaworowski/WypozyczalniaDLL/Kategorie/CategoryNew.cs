@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WypozyczalniaDLL
+namespace WypozyczalniaDane
 {
     public class CategoryNew : Category
     {
@@ -28,10 +28,10 @@ namespace WypozyczalniaDLL
         {
             return "New";
         }
-
         public override string ToString()
         {
-            return "Nowe";
+            return "Nowy";
         }
+
     }
 }

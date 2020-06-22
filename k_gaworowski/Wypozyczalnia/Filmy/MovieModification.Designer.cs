@@ -40,9 +40,9 @@
             // 
             // btnSave
             // 
-            this.btnSave.Font = new System.Drawing.Font("Courier New", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnSave.Font = new System.Drawing.Font("Georgia", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnSave.Location = new System.Drawing.Point(297, 354);
-            this.btnSave.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSave.Margin = new System.Windows.Forms.Padding(4);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(333, 70);
             this.btnSave.TabIndex = 59;
@@ -52,76 +52,76 @@
             // 
             // listCategories
             // 
-            this.listCategories.Font = new System.Drawing.Font("Courier New", 15.75F);
+            this.listCategories.Font = new System.Drawing.Font("Georgia", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.listCategories.FormattingEnabled = true;
-            this.listCategories.ItemHeight = 29;
-            this.listCategories.Location = new System.Drawing.Point(449, 164);
-            this.listCategories.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.listCategories.ItemHeight = 31;
+            this.listCategories.Location = new System.Drawing.Point(450, 164);
+            this.listCategories.Margin = new System.Windows.Forms.Padding(4);
             this.listCategories.Name = "listCategories";
             this.listCategories.SelectionMode = System.Windows.Forms.SelectionMode.MultiSimple;
-            this.listCategories.Size = new System.Drawing.Size(405, 91);
+            this.listCategories.Size = new System.Drawing.Size(405, 128);
             this.listCategories.TabIndex = 58;
             this.listCategories.SelectedIndexChanged += new System.EventHandler(this.listCategories_SelectedIndexChanged);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Courier New", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label1.Font = new System.Drawing.Font("Georgia", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label1.Location = new System.Drawing.Point(236, 22);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(533, 67);
+            this.label1.Size = new System.Drawing.Size(620, 69);
             this.label1.TabIndex = 57;
             this.label1.Text = "MODYFIKUJ FILM";
             // 
             // txtPrice
             // 
-            this.txtPrice.Font = new System.Drawing.Font("Courier New", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.txtPrice.Location = new System.Drawing.Point(123, 242);
-            this.txtPrice.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtPrice.Font = new System.Drawing.Font("Georgia", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.txtPrice.Location = new System.Drawing.Point(123, 254);
+            this.txtPrice.Margin = new System.Windows.Forms.Padding(4);
             this.txtPrice.Name = "txtPrice";
-            this.txtPrice.Size = new System.Drawing.Size(288, 37);
+            this.txtPrice.Size = new System.Drawing.Size(288, 38);
             this.txtPrice.TabIndex = 50;
             // 
             // txtNazwa
             // 
-            this.txtNazwa.Font = new System.Drawing.Font("Courier New", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.txtNazwa.Font = new System.Drawing.Font("Georgia", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.txtNazwa.Location = new System.Drawing.Point(123, 164);
-            this.txtNazwa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtNazwa.Margin = new System.Windows.Forms.Padding(4);
             this.txtNazwa.Name = "txtNazwa";
-            this.txtNazwa.Size = new System.Drawing.Size(288, 37);
+            this.txtNazwa.Size = new System.Drawing.Size(288, 38);
             this.txtNazwa.TabIndex = 51;
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Courier New", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label9.Font = new System.Drawing.Font("Georgia", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label9.Location = new System.Drawing.Point(444, 132);
             this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(173, 30);
+            this.label9.Size = new System.Drawing.Size(143, 32);
             this.label9.TabIndex = 55;
             this.label9.Text = "Kategorie:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Courier New", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label3.Location = new System.Drawing.Point(117, 210);
+            this.label3.Font = new System.Drawing.Font("Georgia", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label3.Location = new System.Drawing.Point(117, 218);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(237, 30);
+            this.label3.Size = new System.Drawing.Size(199, 32);
             this.label3.TabIndex = 53;
             this.label3.Text = "Cena na dzień:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Courier New", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label2.Font = new System.Drawing.Font("Georgia", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label2.Location = new System.Drawing.Point(117, 132);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(109, 30);
+            this.label2.Size = new System.Drawing.Size(106, 32);
             this.label2.TabIndex = 54;
             this.label2.Text = "Nazwa:";
             // 
@@ -138,7 +138,7 @@
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "MovieModification";
             this.Text = "MovieModification";
             this.ResumeLayout(false);

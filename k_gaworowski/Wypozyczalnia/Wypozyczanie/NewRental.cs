@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-using WypozyczalniaDLL;
+using WypozyczalniaDane;
 
 namespace Wypozyczalnia
 {
@@ -73,6 +73,11 @@ namespace Wypozyczalnia
 
             selectedClient.RentalList.Add(rental);
             this.Close();
+        }
+
+        private void TxtPrice_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

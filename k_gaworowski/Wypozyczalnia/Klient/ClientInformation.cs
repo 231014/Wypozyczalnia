@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-using WypozyczalniaDLL;
+using WypozyczalniaDane;
 
 namespace Wypozyczalnia
 {
@@ -98,6 +98,10 @@ namespace Wypozyczalnia
             RefreshClientDetails();
             RefreshRentalList();
         }
- 
+
+        private void Label3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

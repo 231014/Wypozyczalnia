@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-using WypozyczalniaDLL;
+using WypozyczalniaDane;
 
 namespace Wypozyczalnia
 {
@@ -22,7 +22,7 @@ namespace Wypozyczalnia
         private void button1_Click(object sender, EventArgs e)
         {
             PersonalData pers = new PersonalData(txtImie.Text, txtNazwisko.Text, dateTimePicker1.Value);
-            Data.Clients.Add(new WypozyczalniaDLL.Client(pers));
+            Data.Clients.Add(new WypozyczalniaDane.Client(pers));
 
             this.Close();
         }

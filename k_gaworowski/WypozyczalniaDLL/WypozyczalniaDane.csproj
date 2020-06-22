@@ -39,18 +39,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Category\CategoryChild.cs" />
-    <Compile Include="Category\CategoryNew.cs" />
-    <Compile Include="Category\CategoryNormal.cs" />
-    <Compile Include="Category\CategoryWestern.cs" />
+    <Compile Include="Kategorie\CategoryDzieciece.cs" />
+    <Compile Include="Kategorie\CategoryNew.cs" />
+    <Compile Include="Kategorie\CategoryNormal.cs" />
+    <Compile Include="Kategorie\CategoryWestern.cs" />
     <Compile Include="Client.cs" />
-    <Compile Include="Category\Category.cs" />
+    <Compile Include="Kategorie\Category.cs" />
     <Compile Include="Movie.cs" />
     <Compile Include="PersonalData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Rental.cs" />
-    <Compile Include="SaveLoadModule\ISaveLoad.cs" />
-    <Compile Include="SaveLoadModule\SaveLoadToXML.cs" />
+    <Compile Include="Zapisywanie\ZapisInterfejs.cs" />
+    <Compile Include="Zapisywanie\ZapisXML.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

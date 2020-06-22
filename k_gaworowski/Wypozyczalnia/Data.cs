@@ -4,8 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-using WypozyczalniaDLL;
+using WypozyczalniaDane;
 //przechowuje liste obiektow
+
 namespace Wypozyczalnia
 {
     static class Data

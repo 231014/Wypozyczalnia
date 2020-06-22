@@ -35,36 +35,36 @@
             // 
             // listCategories
             // 
-            this.listCategories.Font = new System.Drawing.Font("Courier New", 15.75F);
+            this.listCategories.Font = new System.Drawing.Font("Georgia", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.listCategories.FormattingEnabled = true;
-            this.listCategories.ItemHeight = 29;
+            this.listCategories.ItemHeight = 31;
             this.listCategories.Location = new System.Drawing.Point(16, 101);
-            this.listCategories.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.listCategories.Margin = new System.Windows.Forms.Padding(4);
             this.listCategories.Name = "listCategories";
-            this.listCategories.Size = new System.Drawing.Size(408, 555);
+            this.listCategories.Size = new System.Drawing.Size(408, 531);
             this.listCategories.TabIndex = 6;
             this.listCategories.SelectedIndexChanged += new System.EventHandler(this.listCategories_SelectedIndexChanged);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Courier New", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label1.Font = new System.Drawing.Font("Georgia", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(253, 11);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(353, 67);
+            this.label1.Size = new System.Drawing.Size(423, 69);
             this.label1.TabIndex = 5;
             this.label1.Text = "KATEGORIE";
             // 
             // listMovies
             // 
-            this.listMovies.Font = new System.Drawing.Font("Courier New", 15.75F);
+            this.listMovies.Font = new System.Drawing.Font("Georgia", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.listMovies.FormattingEnabled = true;
-            this.listMovies.ItemHeight = 29;
+            this.listMovies.ItemHeight = 31;
             this.listMovies.Location = new System.Drawing.Point(458, 101);
-            this.listMovies.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.listMovies.Margin = new System.Windows.Forms.Padding(4);
             this.listMovies.Name = "listMovies";
-            this.listMovies.Size = new System.Drawing.Size(437, 555);
+            this.listMovies.Size = new System.Drawing.Size(437, 531);
             this.listMovies.TabIndex = 6;
             // 
             // CategoriesMenu
@@ -75,7 +75,7 @@
             this.Controls.Add(this.listMovies);
             this.Controls.Add(this.listCategories);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "CategoriesMenu";
             this.Text = "CategoriesMenu";
             this.ResumeLayout(false);
